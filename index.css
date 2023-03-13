@@ -6,6 +6,11 @@ body {
 
 }
 
+@font-face {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    src: url(CursedTimerULiL.ttf);
+}
+
 .container {
     display: flex;
     justify-content: space-around;
@@ -19,6 +24,7 @@ body {
 
 
 }
+
 #home-score {
     background: #0a0001;
     font-family: 'Cursed Timer ULiL', sans-serif;
@@ -28,6 +34,7 @@ body {
     margin: 20px;
 
 }
+
 #guest-score {
     background: #0a0001;
     font-family: 'Cursed Timer ULiL', sans-serif;
@@ -36,9 +43,11 @@ body {
     width: 120px;
     margin: 20px;
 }
+
 button {
     font-family: 'Cursed Timer ULiL', sans-serif;
 }
+
 h3 {
     font-size: 40px;
     color: white;
